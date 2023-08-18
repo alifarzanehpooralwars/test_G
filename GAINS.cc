@@ -36,15 +36,15 @@ int main(int argc, char** argv)
 
 
 	//initialize visualization
-	G4VisManager* visManager = nullptr;
+// 	G4VisManager* visManager = nullptr;
 
 	//get the pointer to the User Interface manager
 // 	G4UImanager* UImanager_MT = G4UImanager::GetUIpointer();
 
 	if (ui) {
 		//interactive mode
-		visManager = new G4VisExecutive;
-		visManager->Initialize();
+// 		visManager = new G4VisExecutive;
+// 		visManager->Initialize();
 		UImanager_MT->ApplyCommand("/control/execute deexcite.mac");
 		ui->SessionStart();
 		delete ui;
@@ -57,6 +57,6 @@ int main(int argc, char** argv)
 	}
 
 	//job termination
-	delete visManager;
+// 	delete visManager;
 	delete runManager;
 }
