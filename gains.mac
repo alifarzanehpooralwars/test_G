@@ -1,0 +1,21 @@
+
+/control/execute vis.mac
+
+#/gps/particle ion
+#/gps/pos/centre 0 0 0 cm
+#/gps/pos/type Point
+#/gps/ang/type iso
+#/gps/ion 27 60 0 0
+#/analysis/setFileName GAINS.root
+#/run/beamOn 50
+
+
+
+/gps/particle neutron
+/gps/pos/type Beam
+/gps/direction 0 0 -1
+/gps/pos/shape Circle
+/gps/pos/centre 0 0 100 cm
+/gps/pos/radius 3.3 cm
+/analysis/setFileName GAINS.root
+/run/beamOn 500

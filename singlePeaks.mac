@@ -1,0 +1,5 @@
+/gps/particle gamma
+/gps/pos/type Point
+/gps/ang/type iso
+
+/GAINS/runSinglePeaks Efficiencies/myenergies.txt Efficiencies 10000000

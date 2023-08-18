@@ -1,0 +1,8 @@
+replace g4root.hh by G4AnalysisManager.hh (DONE)
+create a folder in the main directory of the GAINS folder with a custom name (Geet_build)
+go the Geet_build and open terminal in the folder
+run this command: cmake ..
+run this command: make -j8
+run this command: ./GAINS
+you can run this command in the new window: /control/run/beamOn 100
+
